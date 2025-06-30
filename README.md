@@ -1,24 +1,95 @@
-# CATGCN: Cross-step Physics-aware Temporal Graph Neural Network for Biopharmaceutical Modeling
+# CATGCN
 
-<p align="center">
-  <img src="assets/framework.png" alt="CATGCN Framework" width="700"/>
-</p>
+**CATGCN: Cross-step Physics-aware Temporal Graph Neural Networks for Biopharma Process Modeling**
+
+CATGCN is a physics-aware temporal graph neural network designed for modeling biopharmaceutical processes. It introduces a cross-step temporal graph mechanism that incorporates physical priors derived from ODEs (Ordinary Differential Equations), enabling accurate long-term dynamic prediction in real-world fermentation systems.
+
+![Framework](assets/framework.png)
 
 ---
 
-CATGCN is a novel **Cross-step Physics-aware SpatioTemporal Graph Neural Network** designed for dynamic modeling in biopharmaceutical batch processes. It integrates physics knowledge derived from ODEs into neural modeling via an adaptive encoding module.
+## 🔧 Key Modules
 
-> 🧪 In this repo: you will find a complete framework for real-case analysis (Penicillin G & Erythromycin A), general-purpose temporal GNN physics encoders, and reusable tools for biomedical batch systems.
+### STGDEncoder
+A general encoder that constructs cross-timestep spatial-temporal graphs from physical knowledge (ODEs).  
+- Can be plugged into any spatial-temporal GNN architecture.  
+- Supports user-defined physical edges across time.  
+- Examples are provided in the `STGDEncoder_examples/` directory, codes are available in STGDEncoder_tools/` folder.
+
+### CORREncoder
+A correction module that learns feedback from prediction errors to enhance long-term accuracy.  
+- Improves robustness by correcting deviations.  
+- Compatible with CATGCN or other GNNs.
+- Archs are available in CORREncoder_arch/` folder.
+
+
+### Real_studys
+Includes real-world fermentation cases:  
+- Penicillin G production modeling.
+- Erythromycin A production modeling.
+- All cases are available in the `Real_studys/` folder.
+
+---
+
+## 📊 Experimental Results
+
+![Experimental Results](assets/test_metrics.png)
+
+CATGCN achieves state-of-the-art performance on real-world datasets, more details can be found in the paper📚.
+
+---
+
+## 🚀 Getting Started
+
+```bash
+# 1. Clone the repository
+git clone https://github.com/yourname/CATGCN.git
+cd CATGCN
+
+# 2. Install dependencies
+
+
+# 3. Run a demo: build a physical STG graph
+cd STGDEncoder_examples
+python build_graph_example.py
+```
 
 ---
 
 ## 📁 Repository Structure
 
-```bash
+```
 CATGCN/
-│
-├── CORREncoder_arch/         # Temporal correction module based on sequential feedback
-├── Real_studys/              # Real-world case studies (Penicillin G, Erythromycin A)
-├── STGDEncoder_tools/        # Tools for physics-based temporal graph construction
-├── STGDEncoder_examples/     # Examples of building physical STG for arbitrary GNNs
-└── assets/                   # Images for documentation (framework, metrics, etc.)
+├── STGDEncoder_tools/         # Cross-timestep physical graph constructor
+├── STGDEncoder_examples/      # Demo scripts to build STGs
+├── Real_studys/               # Real fermentation case studies
+├── CORREncoder_arch/          # Feedback correction module
+├── assets/                    # Images and diagrams
+│   ├── framework.png
+│   └── test_metrics.png ……
+├── requirements.txt           # Python package dependencies
+└── README.md                  # This file
+```
+
+---
+
+## 📚 Citation
+
+If you find this work useful, please cite the following:
+
+```bibtex
+@article{your2024catgcn,
+  title     = {To be published},
+  author    = {To be published},
+  journal   = {To be submitted},
+  year      = {2025}
+}
+```
+
+---
+
+## 📄 License
+
+This project is licensed under the MIT License.
+
+---
