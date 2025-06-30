@@ -1,0 +1,14 @@
+X2	#A0CBE2		
+X3	#A0CBE2		
+X4	#A0CBE2		
+X9	#A0CBE2		
+X6	#A0CBE2		
+X7	#A0CBE2		
+X8	#63be7b		
+X2_prev	#A0CBE2	dashed_box	rect
+X3_prev	#A0CBE2	dashed_box	rect
+X4_prev	#A0CBE2	dashed_box	rect
+X6_prev	#A0CBE2	dashed_box	rect
+X7_prev	#A0CBE2	dashed_box	rect
+X9_prev	#A0CBE2	dashed_box	rect
+X8_prev	#A0CBE2	dashed_box	rect

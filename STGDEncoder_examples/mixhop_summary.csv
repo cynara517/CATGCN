@@ -1,0 +1,5 @@
+﻿Subgraph File,Source Node,Special Node,Max Hop H,Sum_{h=1..H},y_hop_1,y_hop_2,y_hop_3
+subgraph_A_to_Z.graphml,A,Z,2,0.30000099999999996,1e-06,0.3,
+subgraph_B_to_Z.graphml,B,Z,3,0.400002,1e-06,1e-06,0.4
+subgraph_C_to_Z.graphml,C,Z,1,0.62,0.62,,
+subgraph_D_to_Z.graphml,D,Z,3,0.7000019999999999,1e-06,1e-06,0.7

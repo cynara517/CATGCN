@@ -1,0 +1,11 @@
+Z	special
+A	leaf
+B	leaf
+C	leaf
+D	leaf
+E	leaf
+F	leaf
+M1	med
+M2	med
+M3	med
+M4	med

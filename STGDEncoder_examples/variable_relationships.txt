@@ -1,0 +1,310 @@
+Variable Relationships with Intermediate Calculations:
+
+Variable: med_1
+Operation: multiply
+Influences:
+	-> S
+	-> X
+
+Variable: med_2
+Operation: multiply
+Influences:
+	-> a
+	-> med_1
+
+Variable: med_3
+Operation: multiply
+Influences:
+	-> b
+	-> X
+
+Variable: med_4
+Operation: add
+Influences:
+	-> med_3
+	-> S
+
+Variable: med_5
+Operation: divide
+Influences:
+	-> med_2
+	-> med_4
+
+Variable: med_6
+Operation: divide
+Influences:
+	-> X
+	-> V
+
+Variable: med_7
+Operation: multiply
+Influences:
+	-> V_{do}
+	-> t
+
+Variable: med_8
+Operation: multiply
+Influences:
+	-> med_6
+	-> med_7
+
+Variable: med_9
+Operation: multiply
+Influences:
+	-> -1
+	-> med_8
+
+Variable: med_10
+Operation: add
+Influences:
+	-> med_5
+	-> med_9
+
+Variable: X_dot
+Operation: sum
+Influences:
+	-> med_10
+
+Variable: med_11
+Operation: multiply
+Influences:
+	-> u
+	-> med_1
+
+Variable: med_12
+Operation: add
+Influences:
+	-> p
+	-> S
+
+Variable: med_13
+Operation: pow
+Influences:
+	-> S
+	-> 2
+
+Variable: med_14
+Operation: divide
+Influences:
+	-> med_13
+	-> i
+
+Variable: med_15
+Operation: add
+Influences:
+	-> med_12
+	-> med_14
+
+Variable: med_16
+Operation: divide
+Influences:
+	-> med_11
+	-> med_15
+
+Variable: med_17
+Operation: multiply
+Influences:
+	-> h
+	-> P
+
+Variable: med_18
+Operation: multiply
+Influences:
+	-> -1
+	-> med_17
+
+Variable: med_19
+Operation: add
+Influences:
+	-> med_16
+	-> med_18
+
+Variable: med_20
+Operation: divide
+Influences:
+	-> P
+	-> V
+
+Variable: med_21
+Operation: multiply
+Influences:
+	-> med_20
+	-> med_7
+
+Variable: med_22
+Operation: multiply
+Influences:
+	-> -1
+	-> med_21
+
+Variable: med_23
+Operation: add
+Influences:
+	-> med_19
+	-> med_22
+
+Variable: P_dot
+Operation: sum
+Influences:
+	-> med_23
+
+Variable: med_24
+Operation: multiply
+Influences:
+	-> k
+	-> X
+
+Variable: med_25
+Operation: add
+Influences:
+	-> med_24
+	-> S
+
+Variable: med_26
+Operation: divide
+Influences:
+	-> med_11
+	-> med_25
+
+Variable: med_27
+Operation: multiply
+Influences:
+	-> -1
+	-> med_26
+
+Variable: med_28
+Operation: divide
+Influences:
+	-> med_27
+	-> Y_{X/S}
+
+Variable: med_29
+Operation: add
+Influences:
+	-> K_{P}
+	-> S
+
+Variable: med_30
+Operation: add
+Influences:
+	-> med_29
+	-> med_14
+
+Variable: med_31
+Operation: divide
+Influences:
+	-> med_11
+	-> med_30
+
+Variable: med_32
+Operation: divide
+Influences:
+	-> med_31
+	-> Y_{P/S}
+
+Variable: med_33
+Operation: multiply
+Influences:
+	-> -1
+	-> med_32
+
+Variable: med_34
+Operation: add
+Influences:
+	-> med_28
+	-> med_33
+
+Variable: med_35
+Operation: multiply
+Influences:
+	-> m
+	-> X
+
+Variable: med_36
+Operation: multiply
+Influences:
+	-> -1
+	-> med_35
+
+Variable: med_37
+Operation: add
+Influences:
+	-> med_34
+	-> med_36
+
+Variable: med_38
+Operation: multiply
+Influences:
+	-> F
+	-> s
+
+Variable: med_39
+Operation: divide
+Influences:
+	-> med_38
+	-> V
+
+Variable: med_40
+Operation: add
+Influences:
+	-> med_37
+	-> med_39
+
+Variable: med_41
+Operation: divide
+Influences:
+	-> S
+	-> V
+
+Variable: med_42
+Operation: multiply
+Influences:
+	-> med_41
+	-> med_7
+
+Variable: med_43
+Operation: multiply
+Influences:
+	-> -1
+	-> med_42
+
+Variable: med_44
+Operation: add
+Influences:
+	-> med_40
+	-> med_43
+
+Variable: S_dot
+Operation: sum
+Influences:
+	-> med_44
+
+Variable: med_45
+Operation: multiply
+Influences:
+	-> V
+	-> m
+
+Variable: med_46
+Operation: multiply
+Influences:
+	-> med_45
+	-> l
+
+Variable: med_47
+Operation: multiply
+Influences:
+	-> -1
+	-> med_46
+
+Variable: med_48
+Operation: add
+Influences:
+	-> F
+	-> med_47
+
+Variable: V_dot
+Operation: sum
+Influences:
+	-> med_48
+

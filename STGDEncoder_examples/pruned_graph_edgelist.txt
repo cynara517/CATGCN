@@ -1,0 +1,5 @@
+P med_20
+V med_20
+V med_39
+F med_38
+med_38 med_39

@@ -1,0 +1,328 @@
+<?xml version='1.0' encoding='utf-8'?>
+<graphml xmlns="http://graphml.graphdrawing.org/xmlns" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://graphml.graphdrawing.org/xmlns http://graphml.graphdrawing.org/xmlns/1.0/graphml.xsd">
+  <key id="d0" for="node" attr.name="operation" attr.type="string" />
+  <graph edgedefault="directed">
+    <node id="med_1">
+      <data key="d0">multiply</data>
+    </node>
+    <node id="S">
+      <data key="d0">leaf</data>
+    </node>
+    <node id="X">
+      <data key="d0">leaf</data>
+    </node>
+    <node id="med_2">
+      <data key="d0">multiply</data>
+    </node>
+    <node id="a">
+      <data key="d0">leaf</data>
+    </node>
+    <node id="med_3">
+      <data key="d0">multiply</data>
+    </node>
+    <node id="b">
+      <data key="d0">leaf</data>
+    </node>
+    <node id="med_4">
+      <data key="d0">add</data>
+    </node>
+    <node id="med_5">
+      <data key="d0">divide</data>
+    </node>
+    <node id="med_6">
+      <data key="d0">divide</data>
+    </node>
+    <node id="V">
+      <data key="d0">leaf</data>
+    </node>
+    <node id="med_7">
+      <data key="d0">multiply</data>
+    </node>
+    <node id="V_{do}">
+      <data key="d0">leaf</data>
+    </node>
+    <node id="t">
+      <data key="d0">leaf</data>
+    </node>
+    <node id="med_8">
+      <data key="d0">multiply</data>
+    </node>
+    <node id="med_9">
+      <data key="d0">multiply</data>
+    </node>
+    <node id="-1">
+      <data key="d0">leaf</data>
+    </node>
+    <node id="med_10">
+      <data key="d0">add</data>
+    </node>
+    <node id="X_dot">
+      <data key="d0">sum</data>
+    </node>
+    <node id="med_11">
+      <data key="d0">multiply</data>
+    </node>
+    <node id="u">
+      <data key="d0">leaf</data>
+    </node>
+    <node id="med_12">
+      <data key="d0">add</data>
+    </node>
+    <node id="p">
+      <data key="d0">leaf</data>
+    </node>
+    <node id="med_13">
+      <data key="d0">pow</data>
+    </node>
+    <node id="2">
+      <data key="d0">leaf</data>
+    </node>
+    <node id="med_14">
+      <data key="d0">divide</data>
+    </node>
+    <node id="i">
+      <data key="d0">leaf</data>
+    </node>
+    <node id="med_15">
+      <data key="d0">add</data>
+    </node>
+    <node id="med_16">
+      <data key="d0">divide</data>
+    </node>
+    <node id="med_17">
+      <data key="d0">multiply</data>
+    </node>
+    <node id="h">
+      <data key="d0">leaf</data>
+    </node>
+    <node id="P">
+      <data key="d0">leaf</data>
+    </node>
+    <node id="med_18">
+      <data key="d0">multiply</data>
+    </node>
+    <node id="med_19">
+      <data key="d0">add</data>
+    </node>
+    <node id="med_20">
+      <data key="d0">divide</data>
+    </node>
+    <node id="med_21">
+      <data key="d0">multiply</data>
+    </node>
+    <node id="med_22">
+      <data key="d0">multiply</data>
+    </node>
+    <node id="med_23">
+      <data key="d0">add</data>
+    </node>
+    <node id="P_dot">
+      <data key="d0">sum</data>
+    </node>
+    <node id="med_24">
+      <data key="d0">multiply</data>
+    </node>
+    <node id="k">
+      <data key="d0">leaf</data>
+    </node>
+    <node id="med_25">
+      <data key="d0">add</data>
+    </node>
+    <node id="med_26">
+      <data key="d0">divide</data>
+    </node>
+    <node id="med_27">
+      <data key="d0">multiply</data>
+    </node>
+    <node id="med_28">
+      <data key="d0">divide</data>
+    </node>
+    <node id="Y_{X/S}">
+      <data key="d0">leaf</data>
+    </node>
+    <node id="med_29">
+      <data key="d0">add</data>
+    </node>
+    <node id="K_{P}">
+      <data key="d0">leaf</data>
+    </node>
+    <node id="med_30">
+      <data key="d0">add</data>
+    </node>
+    <node id="med_31">
+      <data key="d0">divide</data>
+    </node>
+    <node id="med_32">
+      <data key="d0">divide</data>
+    </node>
+    <node id="Y_{P/S}">
+      <data key="d0">leaf</data>
+    </node>
+    <node id="med_33">
+      <data key="d0">multiply</data>
+    </node>
+    <node id="med_34">
+      <data key="d0">add</data>
+    </node>
+    <node id="med_35">
+      <data key="d0">multiply</data>
+    </node>
+    <node id="m">
+      <data key="d0">leaf</data>
+    </node>
+    <node id="med_36">
+      <data key="d0">multiply</data>
+    </node>
+    <node id="med_37">
+      <data key="d0">add</data>
+    </node>
+    <node id="med_38">
+      <data key="d0">multiply</data>
+    </node>
+    <node id="F">
+      <data key="d0">leaf</data>
+    </node>
+    <node id="s">
+      <data key="d0">leaf</data>
+    </node>
+    <node id="med_39">
+      <data key="d0">divide</data>
+    </node>
+    <node id="med_40">
+      <data key="d0">add</data>
+    </node>
+    <node id="med_41">
+      <data key="d0">divide</data>
+    </node>
+    <node id="med_42">
+      <data key="d0">multiply</data>
+    </node>
+    <node id="med_43">
+      <data key="d0">multiply</data>
+    </node>
+    <node id="med_44">
+      <data key="d0">add</data>
+    </node>
+    <node id="S_dot">
+      <data key="d0">sum</data>
+    </node>
+    <node id="med_45">
+      <data key="d0">multiply</data>
+    </node>
+    <node id="med_46">
+      <data key="d0">multiply</data>
+    </node>
+    <node id="l">
+      <data key="d0">leaf</data>
+    </node>
+    <node id="med_47">
+      <data key="d0">multiply</data>
+    </node>
+    <node id="med_48">
+      <data key="d0">add</data>
+    </node>
+    <node id="V_dot">
+      <data key="d0">sum</data>
+    </node>
+    <edge source="med_1" target="med_2" />
+    <edge source="med_1" target="med_11" />
+    <edge source="S" target="med_1" />
+    <edge source="S" target="med_4" />
+    <edge source="S" target="med_12" />
+    <edge source="S" target="med_13" />
+    <edge source="S" target="med_25" />
+    <edge source="S" target="med_29" />
+    <edge source="S" target="med_41" />
+    <edge source="X" target="med_1" />
+    <edge source="X" target="med_3" />
+    <edge source="X" target="med_6" />
+    <edge source="X" target="med_24" />
+    <edge source="X" target="med_35" />
+    <edge source="med_2" target="med_5" />
+    <edge source="a" target="med_2" />
+    <edge source="med_3" target="med_4" />
+    <edge source="b" target="med_3" />
+    <edge source="med_4" target="med_5" />
+    <edge source="med_5" target="med_10" />
+    <edge source="med_6" target="med_8" />
+    <edge source="V" target="med_6" />
+    <edge source="V" target="med_20" />
+    <edge source="V" target="med_39" />
+    <edge source="V" target="med_41" />
+    <edge source="V" target="med_45" />
+    <edge source="med_7" target="med_8" />
+    <edge source="med_7" target="med_21" />
+    <edge source="med_7" target="med_42" />
+    <edge source="V_{do}" target="med_7" />
+    <edge source="t" target="med_7" />
+    <edge source="med_8" target="med_9" />
+    <edge source="med_9" target="med_10" />
+    <edge source="-1" target="med_9" />
+    <edge source="-1" target="med_18" />
+    <edge source="-1" target="med_22" />
+    <edge source="-1" target="med_27" />
+    <edge source="-1" target="med_33" />
+    <edge source="-1" target="med_36" />
+    <edge source="-1" target="med_43" />
+    <edge source="-1" target="med_47" />
+    <edge source="med_10" target="X_dot" />
+    <edge source="med_11" target="med_16" />
+    <edge source="med_11" target="med_26" />
+    <edge source="med_11" target="med_31" />
+    <edge source="u" target="med_11" />
+    <edge source="med_12" target="med_15" />
+    <edge source="p" target="med_12" />
+    <edge source="med_13" target="med_14" />
+    <edge source="2" target="med_13" />
+    <edge source="med_14" target="med_15" />
+    <edge source="med_14" target="med_30" />
+    <edge source="i" target="med_14" />
+    <edge source="med_15" target="med_16" />
+    <edge source="med_16" target="med_19" />
+    <edge source="med_17" target="med_18" />
+    <edge source="h" target="med_17" />
+    <edge source="P" target="med_17" />
+    <edge source="P" target="med_20" />
+    <edge source="med_18" target="med_19" />
+    <edge source="med_19" target="med_23" />
+    <edge source="med_20" target="med_21" />
+    <edge source="med_21" target="med_22" />
+    <edge source="med_22" target="med_23" />
+    <edge source="med_23" target="P_dot" />
+    <edge source="med_24" target="med_25" />
+    <edge source="k" target="med_24" />
+    <edge source="med_25" target="med_26" />
+    <edge source="med_26" target="med_27" />
+    <edge source="med_27" target="med_28" />
+    <edge source="med_28" target="med_34" />
+    <edge source="Y_{X/S}" target="med_28" />
+    <edge source="med_29" target="med_30" />
+    <edge source="K_{P}" target="med_29" />
+    <edge source="med_30" target="med_31" />
+    <edge source="med_31" target="med_32" />
+    <edge source="med_32" target="med_33" />
+    <edge source="Y_{P/S}" target="med_32" />
+    <edge source="med_33" target="med_34" />
+    <edge source="med_34" target="med_37" />
+    <edge source="med_35" target="med_36" />
+    <edge source="m" target="med_35" />
+    <edge source="m" target="med_45" />
+    <edge source="med_36" target="med_37" />
+    <edge source="med_37" target="med_40" />
+    <edge source="med_38" target="med_39" />
+    <edge source="F" target="med_38" />
+    <edge source="F" target="med_48" />
+    <edge source="s" target="med_38" />
+    <edge source="med_39" target="med_40" />
+    <edge source="med_40" target="med_44" />
+    <edge source="med_41" target="med_42" />
+    <edge source="med_42" target="med_43" />
+    <edge source="med_43" target="med_44" />
+    <edge source="med_44" target="S_dot" />
+    <edge source="med_45" target="med_46" />
+    <edge source="med_46" target="med_47" />
+    <edge source="l" target="med_46" />
+    <edge source="med_47" target="med_48" />
+    <edge source="med_48" target="V_dot" />
+  </graph>
+</graphml>

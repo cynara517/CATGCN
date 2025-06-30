@@ -1,0 +1,48 @@
+<?xml version='1.0' encoding='utf-8'?>
+<graphml xmlns="http://graphml.graphdrawing.org/xmlns" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://graphml.graphdrawing.org/xmlns http://graphml.graphdrawing.org/xmlns/1.0/graphml.xsd">
+  <key id="d0" for="node" attr.name="operation" attr.type="string" />
+  <graph edgedefault="directed">
+    <node id="Z">
+      <data key="d0">special</data>
+    </node>
+    <node id="A">
+      <data key="d0">leaf</data>
+    </node>
+    <node id="B">
+      <data key="d0">leaf</data>
+    </node>
+    <node id="C">
+      <data key="d0">leaf</data>
+    </node>
+    <node id="D">
+      <data key="d0">leaf</data>
+    </node>
+    <node id="E">
+      <data key="d0">leaf</data>
+    </node>
+    <node id="F">
+      <data key="d0">leaf</data>
+    </node>
+    <node id="M1">
+      <data key="d0">med</data>
+    </node>
+    <node id="M2">
+      <data key="d0">med</data>
+    </node>
+    <node id="M3">
+      <data key="d0">med</data>
+    </node>
+    <node id="M4">
+      <data key="d0">med</data>
+    </node>
+    <edge source="A" target="M1" />
+    <edge source="B" target="M2" />
+    <edge source="C" target="Z" />
+    <edge source="D" target="M4" />
+    <edge source="E" target="F" />
+    <edge source="M1" target="Z" />
+    <edge source="M2" target="M3" />
+    <edge source="M3" target="Z" />
+    <edge source="M4" target="M3" />
+  </graph>
+</graphml>

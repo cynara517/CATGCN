@@ -1,0 +1,29 @@
+<?xml version='1.0' encoding='utf-8'?>
+<graphml xmlns="http://graphml.graphdrawing.org/xmlns" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://graphml.graphdrawing.org/xmlns http://graphml.graphdrawing.org/xmlns/1.0/graphml.xsd">
+  <key id="d0" for="node" attr.name="operation" attr.type="string" />
+  <graph edgedefault="directed">
+    <node id="med_20">
+      <data key="d0">divide</data>
+    </node>
+    <node id="P">
+      <data key="d0">leaf</data>
+    </node>
+    <node id="V">
+      <data key="d0">leaf</data>
+    </node>
+    <node id="F">
+      <data key="d0">leaf</data>
+    </node>
+    <node id="med_39">
+      <data key="d0">divide</data>
+    </node>
+    <node id="med_38">
+      <data key="d0">multiply</data>
+    </node>
+    <edge source="P" target="med_20" />
+    <edge source="V" target="med_20" />
+    <edge source="V" target="med_39" />
+    <edge source="F" target="med_38" />
+    <edge source="med_38" target="med_39" />
+  </graph>
+</graphml>

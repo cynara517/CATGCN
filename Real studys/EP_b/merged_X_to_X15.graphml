@@ -1,0 +1,57 @@
+<?xml version='1.0' encoding='utf-8'?>
+<graphml xmlns="http://graphml.graphdrawing.org/xmlns" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://graphml.graphdrawing.org/xmlns http://graphml.graphdrawing.org/xmlns/1.0/graphml.xsd">
+  <key id="d1" for="node" attr.name="color" attr.type="string" />
+  <key id="d0" for="node" attr.name="operation" attr.type="string" />
+  <graph edgedefault="directed">
+    <node id="X2">
+      <data key="d0">leaf</data>
+      <data key="d1">#A0CBE2</data>
+    </node>
+    <node id="X6">
+      <data key="d0">leaf</data>
+      <data key="d1">#A0A0A0</data>
+    </node>
+    <node id="X11">
+      <data key="d0">leaf</data>
+      <data key="d1">#A0CBE2</data>
+    </node>
+    <node id="X12">
+      <data key="d0">leaf</data>
+      <data key="d1">#A0CBE2</data>
+    </node>
+    <node id="M4">
+      <data key="d0">med</data>
+      <data key="d1">#A0A0A0</data>
+    </node>
+    <node id="X15">
+      <data key="d0">special</data>
+      <data key="d1">#27ae60</data>
+    </node>
+    <node id="X3">
+      <data key="d0">leaf</data>
+      <data key="d1">#A0CBE2</data>
+    </node>
+    <node id="X7">
+      <data key="d0">leaf</data>
+      <data key="d1">#A0CBE2</data>
+    </node>
+    <node id="X8">
+      <data key="d0">leaf</data>
+      <data key="d1">#A0CBE2</data>
+    </node>
+    <node id="X9">
+      <data key="d0">leaf</data>
+      <data key="d1">#A0CBE2</data>
+    </node>
+    <edge source="X2" target="X6" />
+    <edge source="X6" target="X11" />
+    <edge source="X6" target="X15" />
+    <edge source="X11" target="X12" />
+    <edge source="X12" target="M4" />
+    <edge source="M4" target="X15" />
+    <edge source="X3" target="X15" />
+    <edge source="X7" target="X15" />
+    <edge source="X8" target="X6" />
+    <edge source="X9" target="X6" />
+  </graph>
+</graphml>

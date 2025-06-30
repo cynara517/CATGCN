@@ -1,0 +1,21 @@
+<?xml version='1.0' encoding='utf-8'?>
+<graphml xmlns="http://graphml.graphdrawing.org/xmlns" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://graphml.graphdrawing.org/xmlns http://graphml.graphdrawing.org/xmlns/1.0/graphml.xsd">
+  <key id="d0" for="node" attr.name="operation" attr.type="string" />
+  <graph edgedefault="directed">
+    <node id="B">
+      <data key="d0">leaf</data>
+    </node>
+    <node id="M2">
+      <data key="d0">med</data>
+    </node>
+    <node id="M3">
+      <data key="d0">med</data>
+    </node>
+    <node id="Z">
+      <data key="d0">special</data>
+    </node>
+    <edge source="B" target="M2" />
+    <edge source="M2" target="M3" />
+    <edge source="M3" target="Z" />
+  </graph>
+</graphml>

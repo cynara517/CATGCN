@@ -1,0 +1,10 @@
+X2	leaf	#A0CBE2
+X6	leaf	#A0A0A0
+X11	leaf	#A0CBE2
+X12	leaf	#A0CBE2
+M4	med	#A0A0A0
+X15	special	#27ae60
+X3	leaf	#A0CBE2
+X7	leaf	#A0CBE2
+X8	leaf	#A0CBE2
+X9	leaf	#A0CBE2

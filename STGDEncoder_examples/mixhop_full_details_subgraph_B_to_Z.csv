@@ -1,0 +1,5 @@
+﻿Node,operation,x_initial,dist_to_Z
+B,leaf,0.4,3
+M2,med,1e-06,2
+M3,med,1e-06,1
+Z,special,1.0,0

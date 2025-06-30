@@ -1,0 +1,4 @@
+\frac{d X}{d t}= (\frac{a S X}{b X+S})-\frac{X}{V} \frac{d V}{d t} \\
+\frac{d P}{d t}= (\frac{u S X}{p+S+\frac{S^2}{i}})-h P-\frac{P}{V} \frac{d V}{d t} \\
+\frac{d S}{d t}= -(\frac{1}{Y_{X / S}} \frac{u S X}{k X+S})-(\frac{1}{Y_{P / S}} \frac{u S X}{K_P+S+\frac{S^2}{i}}) -m X+\frac{F s}{V}-\frac{S}{V} \frac{d V}{d t} \\
+\frac{d V}{d t}= F-V m * l,

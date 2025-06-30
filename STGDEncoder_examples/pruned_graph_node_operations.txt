@@ -1,0 +1,6 @@
+med_20	divide
+P	leaf
+V	leaf
+F	leaf
+med_39	divide
+med_38	multiply
