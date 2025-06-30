@@ -26,7 +26,9 @@ A correction module that learns feedback from prediction errors to enhance long-
 ### Real_studys
 Includes real-world fermentation cases:  
 - Penicillin G production modeling.
+ ![Penicillin G graph](assets/PPR_graph.png)
 - Erythromycin A production modeling.
+ ![Erythromycin A  graph](assets/EP_graph.png)
 - All cases are available in the `Real_studys/` folder.
 
 ---
